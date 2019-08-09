@@ -79,6 +79,39 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-content {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.our-work {
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-content: center; */
+}
+
+.about-us {
+    width: 300px;
+    margin: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: 2px solid black;
+    width: 180px;
+    border-radius: 10px;
+    height: 40px;
+    margin: 15px;
+    background-color: white;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
