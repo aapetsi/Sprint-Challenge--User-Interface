@@ -126,6 +126,11 @@ p {
     padding-right: 0;
 }
 
+.img-header {
+    /* width: 40px; */
+    padding-bottom: 25px;
+}
+
 /* Box Colors */
 #box-1 {
     background-color: teal;
@@ -189,6 +194,16 @@ footer nav a {
 section nav {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
 }
+
+section nav a {
+    text-decoration: none;
+    color: black;
+}
+
