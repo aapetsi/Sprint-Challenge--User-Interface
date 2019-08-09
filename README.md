@@ -43,10 +43,10 @@ With display block, elements occupy as much horizontal space as they can without
 
 3. What are the 4 areas of the box model?
 
-Border
-Margin
-Padding
-Content Area
+* Border
+* Margin
+* Padding
+* Content Area
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
