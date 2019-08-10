@@ -79,6 +79,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
+/* about html styles */
 .about-content {
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -171,43 +172,43 @@ p {
 }
 
 /* Box Colors */
-#box-1 {
+#teal {
     background-color: teal;
 }
 
-#box-2 {
+#gold {
     background-color: gold;
 }
 
-#box-3 {
+#cadetblue {
     background-color: cadetblue;
 }
 
-#box-4 {
+#coral {
     background-color: coral;
 }
 
-#box-5 {
+#crimson {
     background-color: crimson;
 }
 
-#box-6 {
+#forestgreen {
     background-color: forestgreen;
 }
 
-#box-7 {
+#darkorchid {
     background-color: darkorchid;
 }
 
-#box-8 {
+#hotpink {
     background-color: hotpink;
 }
 
-#box-9 {
+#indigo {
     background-color: indigo;
 }
 
-#box-10 {
+#dodgerblue {
     background-color: dodgerblue;
 }
 
@@ -230,7 +231,7 @@ footer nav a {
     text-decoration: none;
 }
 
-section nav {
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -241,7 +242,7 @@ section nav {
     padding-right: 25px;
 }
 
-section nav a {
+header nav a {
     text-decoration: none;
     color: black;
 }
@@ -253,6 +254,13 @@ section nav a {
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+/* animation delay */
+.two {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
   
