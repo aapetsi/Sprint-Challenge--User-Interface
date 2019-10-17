@@ -79,6 +79,46 @@ p {
     border-bottom: 1px dashed black;
 }
 
+/* about html styles */
+.about-content {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.our-work {
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-content: center; */
+}
+
+.about-us {
+    width: 300px;
+    margin: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: 2px solid black;
+    width: 180px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.pre-footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -126,6 +166,52 @@ p {
     padding-right: 0;
 }
 
+.img-header {
+    /* width: 40px; */
+    padding-bottom: 25px;
+}
+
+/* Box Colors */
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -143,4 +229,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* stretch challenge */
+
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/* animation delay */
+.two {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+  
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+/* blog page styles */
+.blog {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.blog-item {
+    border: 3px solid green;
+    width: 30%;
+    margin: 10px;
+    height: 200px;
 }
